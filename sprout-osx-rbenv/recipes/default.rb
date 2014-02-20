@@ -4,8 +4,6 @@ default_ruby = node['sprout']['rbenv']['default_ruby']
 package 'rbenv'
 package 'ruby-build'
 
-sprout_osx_base_bash_it_enable_feature 'plugins/rbenv'
-
 rubies.each do |version, options|
   ruby_install version do
     options options
