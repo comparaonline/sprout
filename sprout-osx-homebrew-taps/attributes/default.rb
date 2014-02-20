@@ -1,1 +1,1 @@
-default.homebrew_taps.taps = []
+default.sprout.homebrew_taps.taps = []

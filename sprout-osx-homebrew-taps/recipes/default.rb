@@ -1,4 +1,4 @@
-taps = node.homebrew_taps.taps
+taps = node.sprout.homebrew_taps.taps
 
 taps.each do |tap|
   homebrew_tap tap
